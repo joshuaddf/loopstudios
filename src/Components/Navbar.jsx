@@ -1,6 +1,6 @@
 import logo from "/images/logo.svg";
-import menuClose from "/images/icon-hamburger.svg";
-import menuOpen from "/images/icon-close.svg";
+import menuOpen from "/images/icon-hamburger.svg";
+import menuCLose from "/images/icon-close.svg";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { NavLink } from "react-router-dom";
@@ -59,7 +59,7 @@ const Navbar = () => {
       </AnimatePresence>
 
       <button onClick={showMenu} className="z-10 lg:hidden md:hidden">
-        <img src={!menuActive ? menuClose : menuOpen} />
+        <img src={!menuActive ? menuOpen : menuCLose} />
       </button>
 
       {/* ==================== DESKTOP MENU ======================== */}

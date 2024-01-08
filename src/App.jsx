@@ -8,9 +8,7 @@ import Events from "./Pages/Events";
 import Products from "./Pages/Products";
 import Support from "./Pages/Support";
 import NotFound from "./Pages/NotFound";
-import Hero from "./Hero";
 import See from "./Pages/See";
-import Footer from "./Components/Footer";
 
 const App = () => {
   return (
